@@ -18,13 +18,17 @@ html{
 font-size:62.5%;
 }
 .section{
-    min-height:100vh;
+    min-height:80vh;
     width:100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
     url(https://images.unsplash.com/photo-1562774053-701939374585?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGNhbXB1c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
     background-position:center;
     background-size:100% 100%;
     position:relative;
+     display:flex;
+    justify-content: center;
+    align-items:center;
+     flex-direction: column;
 }
 
  nav .logo{
@@ -134,8 +138,6 @@ ul li{
 
  .content p{
     position:relative;
-    top:-1rem;
-    left:0;
     color:#f1f1f1;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:600;
@@ -144,11 +146,9 @@ ul li{
 .content a{
     text-decoration:none;
     position:relative;
-    top:1.5rem;
-    left:0;
-    color:rgba(255,255,255,0.5);
+    color:rgba(255,255,255);
     padding:1rem 4rem;
-    background:rgba(0,0,0,0.3);
+    background:ref;
     font-size:1.2rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     border-top:1px solid rgba(255,255,255,0.5);
@@ -585,7 +585,7 @@ z-index:2;
                 <li><a href="#" class="active">HOME</a></li>
                 <li><a href="#">GALLERY</a></li>
                 <li><a href="#">CONTACT</a></li>
-                <li><a href="https://github.com/softwareCreater/expressApp.git" target="_hack">ABOUT US</a></li>
+                <li><a href="https://github.com/softwareCreater" target="_hack">ABOUT US</a></li>
             </ul>
 </div>
         </nav>
@@ -593,7 +593,7 @@ z-index:2;
             <div class="content">
                 <h1>Allahabad state university</h1>
                 <p>IICS college is one the most demanding college in Allahabad </p>
-                <a href="#">Click Me</a>
+                <a href="#">Know more</a>
             </div>
         </div>
         </header>
